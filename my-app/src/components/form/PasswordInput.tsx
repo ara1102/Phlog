@@ -1,6 +1,6 @@
     import React, { useState } from 'react'
     import { FieldErrors, UseFormRegister, UseFormWatch } from 'react-hook-form';
-    import { FormValues } from '../../pages/form';
+    import { FormValues } from '@/pages/RegisterForm';
     import { FaEye, FaEyeSlash } from 'react-icons/fa';
     import { IconType } from 'react-icons';
 

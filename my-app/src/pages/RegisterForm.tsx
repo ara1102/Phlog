@@ -15,7 +15,7 @@ export interface FormValues {
     state: string,
 }
 
-const Form = () => {
+const RegisterForm = () => {
     const {
         register,
         handleSubmit,
@@ -87,4 +87,4 @@ const Form = () => {
     )
 }
 
-export default Form;
+export default RegisterForm;
