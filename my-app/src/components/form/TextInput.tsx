@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { FieldErrors, UseFormRegister } from 'react-hook-form';
-import { FormValues } from '../../pages/Form';
+import { FormValues } from '../../pages/form';
 import { FaBeer, FaUser, FaEnvelope} from 'react-icons/fa';
 import { FormRules } from './FormRules';
 import { IconType } from 'react-icons';
