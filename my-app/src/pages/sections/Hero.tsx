@@ -13,7 +13,7 @@ const Hero = () => {
           <p className='py-5 font-semibold'>Phlog is a place for people to promote their photography and appreciate other photography arts. To get started, you’ll need a Phlog account. It’s free to sign up, and you’ll get access to special content formats, custom analytics and more.</p>
 
           <div className='flex flex-col flex-wrap sm:flex-row gap-2 items-center justify-center'>
-            <ButtonLink link='form' title="Create an Account"/>
+            <ButtonLink link='Form' title="Create an Account"/>
             <ButtonLink link='photos' title="Gallery"/>
           </div>
 

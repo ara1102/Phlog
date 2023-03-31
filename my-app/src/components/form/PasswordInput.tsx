@@ -1,8 +1,7 @@
-    import React, { FC, useEffect, useState } from 'react'
-    import { FieldErrors, useForm, UseFormRegister, UseFormWatch } from 'react-hook-form';
-    import { FormValues } from '../../pages/form';
+    import React, { useState } from 'react'
+    import { FieldErrors, UseFormRegister, UseFormWatch } from 'react-hook-form';
+    import { FormValues } from '../../pages/Form';
     import { FaEye, FaEyeSlash } from 'react-icons/fa';
-    import { FormRules } from './FormRules';
     import { IconType } from 'react-icons';
 
     type PasswordInputProps = {
