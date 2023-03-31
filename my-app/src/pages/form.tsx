@@ -3,26 +3,16 @@ import TextInput from '@/components/form/TextInput';
 import React from 'react'
 import { useForm } from 'react-hook-form'
 import AddressInput from '@/components/form/AddressInput';
-// import HeadingText from './sections/HeadingText';
-
-// 1. confirmPassword validation
-// 2. make validation and error message modular
-// 3. toggle password
 
 export interface FormValues {
     firstName: string,
     lastName: string,
     email: string,
-    // phoneNumber: number,
     username: string,
     password: string,
     confirmPassword: string,
-    // purpose: string,
     country: string,
     state: string,
-    // city: string,
-    // postalCode: string,
-    // dateOfBirth: Date,
 }
 
 const Form = () => {
@@ -52,7 +42,7 @@ const Form = () => {
 
                             <div className='flex flex-col justify-center'>
                                 <p className='text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-indigo-500 font-bold text-2xl sm:text-5xl md:text-3xl self-center sm:p-3'>Welcome to Phlog!</p>
-                                <p className='text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-indigo-500 font-bold text-lg sm:text-2xl self-center'>'Fill out this form to sign up'</p>
+                                <p className='text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-indigo-500 font-bold text-lg sm:text-2xl self-center'>Fill out this form to sign up</p>
                             </div>
                             
                             <div>
