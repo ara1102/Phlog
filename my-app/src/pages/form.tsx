@@ -25,7 +25,7 @@ export interface FormValues {
     // dateOfBirth: Date,
 }
 
-const form = () => {
+const Form = () => {
     const {
         register,
         handleSubmit,
@@ -97,4 +97,4 @@ const form = () => {
     )
 }
 
-export default form;
+export default Form;
