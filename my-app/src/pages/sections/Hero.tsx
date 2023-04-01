@@ -29,7 +29,7 @@ const Hero = () => {
         <ImageText
           text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ea soluta consequatur officiis in, ipsam quos voluptate, fuga quaerat, tempora possimus. Quasi, accusantium! Quas eveniet cumque quaerat, dolor maiores ducimus."
           title="Benefits from analytics customization"
-          src="/Goal.jpg"
+          src="/Goal.JPG"
           order={2}
         />
 
